@@ -20,7 +20,7 @@ $ps=$_POST['password'];
 $ins="INSERT INTO tutu(username,email,password) VALUES('$us','$e','$ps')";
 $run=mysqli_query($con,$ins);
 if($run){
-header('Location: index.html');
+header('Location: favourite.html');
 }
 else
 {
